@@ -1,4 +1,4 @@
-require_relative './lib/pmt/version'
+require_relative 'lib/pmt/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'pmt'
