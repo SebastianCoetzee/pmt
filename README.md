@@ -106,11 +106,31 @@ To see an explanation of the command line interface, use the help function:
 pmt --help
 ```
 
+# Testing
+
+After cloning the repository as explained above, from the root of the repository, run the following:
+
+```
+gem install bundler
+```
+
+Then install the dependencies:
+
+```
+bundle install
+```
+
+After the dependencies are installed, run the following command to run the test suite:
+
+```
+rspec
+```
+
 # External Dependencies
 
 - [commander](https://github.com/commander-rb/commander) for parsing command line arguments
 - [terminal-table](https://github.com/tj/terminal-table) for formatting the table to STDOUT
 
-## LICENSE
+## License
 
 MIT
