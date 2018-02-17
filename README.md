@@ -4,13 +4,17 @@
 
 A command-line tool that prints a multiplication table of the first N prime numbers.
 
-## Installation from RubyGems
+## Installation
+
+There are two ways to install Prime Multiplication Table, either straight from RubyGems or from the repository.
+
+### Installing from RubyGems
 
 ```
 gem install pmt
 ```
 
-## Installing from repository
+### Installing from repository
 
 Clone the repository:
 
@@ -101,8 +105,6 @@ To see an explanation of the command line interface, use the help function:
 ```
 pmt --help
 ```
-
-
 
 ## LICENSE
 
