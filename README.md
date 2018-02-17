@@ -108,7 +108,7 @@ pmt --help
 
 # External Dependencies
 
-- [commander](https://github.com/commander-rb/commander) for passing command line arguments
+- [commander](https://github.com/commander-rb/commander) for parsing command line arguments
 - [terminal-table](https://github.com/tj/terminal-table) for formatting the table to STDOUT
 
 ## LICENSE
