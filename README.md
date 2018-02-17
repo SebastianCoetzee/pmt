@@ -1,5 +1,7 @@
 # Prime Multiplication Table
 
+[![Build Status](https://travis-ci.org/SebastianCoetzee/pmt.svg?branch=master)](https://travis-ci.org/SebastianCoetzee/pmt)
+
 A command-line tool that prints a multiplication table of the first N prime numbers.
 
 ## Installation from RubyGems
@@ -93,6 +95,14 @@ Output:
 | 11 | 22 | 33 | 55 | 77 | 121 |
 +----+----+----+----+----+-----+
 ```
+
+To see an explanation of the command line interface, use the help function:
+
+```
+pmt --help
+```
+
+
 
 ## LICENSE
 
