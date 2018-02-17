@@ -19,7 +19,11 @@ module Pmt
             count: 10
           )
 
-          puts MultiplicationTable.new(options.count).to_s
+          if options.count < 1
+            puts "The count option must be a positive value"
+          else
+            puts MultiplicationTable.new(options.count).to_s
+          end
         end
       end
 
