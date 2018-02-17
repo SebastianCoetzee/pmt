@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'terminal-table', '~> 1.8.0'
 
   spec.add_development_dependency 'rspec', '~> 3.7.0'
+  spec.add_development_dependency 'rake'
 end
