@@ -1,6 +1,6 @@
 require 'terminal-table'
 
-module PrimeMultiplicationTable
+module Pmt
   class MultiplicationTable
 
     attr_reader :number_of_primes

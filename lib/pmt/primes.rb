@@ -1,6 +1,6 @@
 # Since these are essentially just functions that don't manage any state, there
 # is no need to instantiate an object from a class. Using module methods instead.
-module PrimeMultiplicationTable
+module Pmt
   module Primes
     def self.first(n)
       raise "Number of primes should be an integer" unless n.is_a? Integer

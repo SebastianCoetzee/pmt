@@ -1,4 +1,4 @@
-describe PrimeMultiplicationTable::MultiplicationTable do
+describe Pmt::MultiplicationTable do
   describe "#multiplication_table_array function" do
     describe "for n = 2" do
       let(:n) { 2 }

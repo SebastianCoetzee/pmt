@@ -1,4 +1,4 @@
-describe PrimeMultiplicationTable::Primes do
+describe Pmt::Primes do
   describe "#is_prime_number function" do
     describe "for an array of expected inputs" do
       let(:inputs) { [
